@@ -24,3 +24,7 @@ db.sqlite3
 *.key
 *.pem
 *.pub
+
+ # Ignore Assests Folder
+assets/*
+assets/
