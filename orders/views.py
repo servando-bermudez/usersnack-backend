@@ -19,3 +19,4 @@ class OrderListCreateAPIView(ListCreateAPIView):
 class OrderRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
+    allowed_methods = ("GET", "PATCH", "DELETE")
