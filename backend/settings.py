@@ -38,7 +38,7 @@ if DEBUG:
     CORS_ALLOW_ALL_ORIGINS = True
 else:
     ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS")
-    CORS_ALLOWED_ORIGINS = env.list("DJANGO_ALLOWED_ORIGINS")
+    CORS_ALLOWED_ORIGINS = env.list("DJANGO_ALLOWED_ORIGINS", default=[])
 
 
 # Application definition
