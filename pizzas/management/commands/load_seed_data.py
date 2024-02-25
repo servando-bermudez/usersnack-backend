@@ -38,12 +38,13 @@ class Command(BaseCommand):
                 open(BASE_DIR / f"seed_data/images/{raw_pizza.get('img')}", "rb")
             )
 
-            pizza = Pizza.objects.create(
+            pizza, created = Pizza.objects.get_or_create(
                 name=raw_pizza.get("name"),
                 price=raw_pizza.get("price"),
             )
 
-            pizza.img.save(raw_pizza.get("img"), img_file, save=True)
+            if created:
+                pizza.img.save(raw_pizza.get("img"), img_file, save=True)
 
             pizza.save()
 
