@@ -1,0 +1,26 @@
+# Common Git Ignore Files for Django (Python) projects
+
+
+# Ignore the virtual environment folder
+.venv/*
+
+# Ignore VSCode settings and Related Folders
+.vscode/*
+
+# Ignore IDE files
+.vscode/*
+.idea/*
+.DS_Store
+
+*.pyc
+*.pyo
+.env
+.env.*
+
+# Ignore databse
+db.sqlite3
+
+# Ignore Key files
+*.key
+*.pem
+*.pub

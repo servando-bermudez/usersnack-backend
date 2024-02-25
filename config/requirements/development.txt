@@ -1,0 +1,4 @@
+# Base Requirements
+-r base.txt
+
+black==23.9.1

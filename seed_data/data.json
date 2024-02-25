@@ -1,0 +1,96 @@
+{
+  "pizzas": [
+    {
+      "name": "Cheese & Tomato",
+      "price": 11.90,
+      "ingredients": ["tomato", "cheese"],
+      "img": "cheesetomato.jpg"
+    },
+    {
+      "name": "Mighty Meaty",
+      "price": 16.90,
+      "ingredients": ["tomato", "pepperoni", "ham", "onion", "mushrooms", "sausage"],
+      "img": "mighty-meaty-pizza.jpg"
+    },
+    {
+      "name": "Pepperoni Passion",
+      "price": 16.90,
+      "ingredients": ["tomato", "pepperoni", "cheese"],
+      "img": "pepperoni-passion-pizza.jpg"
+    },
+    {
+      "name": "Texas BBQ",
+      "price": 16.90,
+      "ingredients": ["bbq sauce", "bacon", "onion", "roast chicken", "green peppers"],
+      "img": "texas-bbq-pizza.jpg"
+    },
+    {
+      "name": "Vegi Supreme",
+      "price": 16.90,
+      "ingredients": ["tomato", "onion", "green peppers", "mushrooms"],
+      "img": "vegisupreme-pizza.jpg"
+    },
+    {
+      "name": "American Hot",
+      "price": 15.90,
+      "ingredients": ["tomato", "onion", "pepperoni", "jalapeno"],
+      "img": "ahot_thumbnail.jpg"
+    },
+    {
+      "name": "Chicken and Rasher Bacon",
+      "price": 16.90,
+      "ingredients": ["tomato", "chicken breast","bacon", "onion"],
+      "img": "CHICKEN_RASHER_BACON.jpg"
+    },
+    {
+      "name": "Chicken Feast",
+      "price": 15.90,
+      "ingredients": ["tomato", "chicken", "mushrooms"],
+      "img": "chickenfeast.jpg"
+    },
+    {
+      "name": "Four Vegi",
+      "price": 15.90,
+      "ingredients": ["tomato", "spinach", "onion", "mushrooms"],
+      "img": "FourVegi.jpg"
+    },
+    {
+      "name": "Hot & Spicy",
+      "price": 15.90,
+      "ingredients": ["tomato", "onion", "beef", "green peppers", "jalapeno"],
+      "img": "hot-n-spicy-pizza.jpg"
+    },
+    {
+      "name": "Meateor",
+      "price": 16.90,
+      "ingredients": ["bbq sauce", "cheese", "pork meatballs", "sausage", "pepperoni", "bacon"],
+      "img": "meateor.jpg"
+    },
+    {
+      "name": "New Yorker",
+      "price": 16.90,
+      "ingredients": ["tomato", "pepperoni", "bacon", "mushrooms"],
+      "img": "new-yorker.jpg"
+    },
+    {
+      "name": "Tandoori Hot",
+      "price": 16.90,
+      "ingredients": ["tomato", "chicken", "onion", "green peppers", "jalapeno"],
+      "img": "tandoori-hot-pizza.jpg"
+    },
+    {
+      "name": "The Sizzler",
+      "price": 16.90,
+      "ingredients": ["tomato", "garlic sauce", "onion", "pepperoni", "jalapeno", "green peppers"],
+      "img": "TheSizzler80x56.jpg"
+    }
+  ],
+  "extras": [
+    {"name": "ham", "price": 2},
+    {"name": "onion", "price": 1},
+    {"name": "bacon", "price": 2},
+    {"name": "cheese", "price": 1.4},
+    {"name": "green peppers", "price": 1.2},
+    {"name": "mushrooms", "price": 1.2}
+  ]
+}
