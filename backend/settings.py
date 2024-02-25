@@ -178,8 +178,8 @@ USE_TZ = True
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-MEDIA_URL = "assets/"
-MEDIA_ROOT = BASE_DIR / "assets"
+MEDIA_URL = env("MEDIA_PATH", default="assets/")
+MEDIA_ROOT = env("MEDIA_ROOT", default=BASE_DIR / "assets")
 
 STORAGES = {
     "default": {
